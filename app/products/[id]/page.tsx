@@ -30,13 +30,13 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
     }
 
     return (
-        <div className="min-h-screen bg-background">
-            <header className="border-b bg-card">
-                <div className="container mx-auto px-4 py-6 sm:px-6 lg:px-8">
+        <div className="min-h-screen">
+            <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
+                <div className="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between">
                         <div>
-                            <h1 className="text-2xl font-semibold text-foreground">Hedamo</h1>
-                            <p className="mt-1 text-sm text-muted-foreground">
+                            <h1 className="text-xl font-bold tracking-tight text-foreground">Hedamo</h1>
+                            <p className="text-xs font-medium text-muted-foreground uppercase tracking-widest">
                                 Disclosure System
                             </p>
                         </div>
