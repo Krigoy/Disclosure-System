@@ -31,7 +31,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
     return (
         <div className="min-h-screen">
-            <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
+            <header className="sticky top-0 z-50 w-full border-b bg-background">
                 <div className="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between">
                         <div>

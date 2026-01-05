@@ -64,7 +64,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
                     transition={{ duration: 0.2, ease: 'easeOut' }}
                     className="h-full"
                 >
-                    <Card className="group h-full overflow-hidden border-white/40 bg-white/60 backdrop-blur-md transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:bg-white/80">
+                    <Card className="group h-full overflow-hidden border-border bg-card transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                         {product.image && (
                             <div className="aspect-square w-full overflow-hidden bg-muted/20 relative">
                                 <motion.img
