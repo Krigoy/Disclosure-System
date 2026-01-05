@@ -8,6 +8,17 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Hedamo Disclosure System',
   description: 'Product disclosure system showing producer-declared information',
+  openGraph: {
+    title: 'Hedamo Disclosure System',
+    description: 'Product disclosure system showing producer-declared information',
+    type: 'website',
+    siteName: 'Hedamo',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hedamo Disclosure System',
+    description: 'Product disclosure system showing producer-declared information',
+  },
 }
 
 export default function RootLayout({
