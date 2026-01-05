@@ -13,7 +13,7 @@ export const products: Product[] = [
         evidenceAttached: true,
         evidenceCount: 3,
         description: 'Producer-declared information about organic cotton sourcing and manufacturing processes.',
-        image: '/assets/products/1.jpeg',
+        image: '/assets/products/Organic Cotton.jpg',
         versions: [
             {
                 id: 'v1',
@@ -47,7 +47,7 @@ export const products: Product[] = [
         evidenceAttached: true,
         evidenceCount: 5,
         description: 'Producer-reported details on bamboo sourcing, processing, and environmental impact.',
-        image: '/assets/products/2.jpeg',
+        image: '/assets/products/Sustainable Bamboo Flooring.avif',
         versions: [
             {
                 id: 'v1',
@@ -74,7 +74,7 @@ export const products: Product[] = [
         declaredBy: 'CircularPack Solutions',
         evidenceAttached: false,
         description: 'Information declared by producer regarding recycled content and manufacturing process.',
-        image: '/assets/products/3.jpeg',
+        image: '/assets/products/Recycled Aluminium Can.webp',
         versions: [
             {
                 id: 'v1',
@@ -96,7 +96,7 @@ export const products: Product[] = [
         evidenceAttached: true,
         evidenceCount: 7,
         description: 'Producer-declared specifications and environmental information.',
-        image: '/assets/products/4.jpeg',
+        image: '/assets/products/Solar Panel Module.avif',
         versions: [
             {
                 id: 'v1',
@@ -136,7 +136,7 @@ export const products: Product[] = [
         evidenceAttached: true,
         evidenceCount: 4,
         description: 'Producer-reported details on biodegradable materials and decomposition characteristics.',
-        image: '/assets/products/5.jpeg',
+        image: '/assets/products/Biodegradable Food Container.jpeg',
         versions: [
             {
                 id: 'v1',
@@ -170,7 +170,7 @@ export const products: Product[] = [
         evidenceAttached: true,
         evidenceCount: 2,
         description: 'Producer-declared information about hemp sourcing and insulation properties.',
-        image: '/assets/products/6.jpeg',
+        image: '/assets/products/Hemp Fiber Insulation.webp',
         versions: [
             {
                 id: 'v1',
@@ -198,7 +198,7 @@ export const products: Product[] = [
         evidenceAttached: true,
         evidenceCount: 6,
         description: 'Information declared by producer regarding recycled PET content and manufacturing.',
-        image: '/assets/products/7.jpeg',
+        image: '/assets/products/Recycled PET Bottle.jpeg',
         versions: [
             {
                 id: 'v1',
@@ -237,7 +237,7 @@ export const products: Product[] = [
         declaredBy: 'FarmFresh Organics',
         evidenceAttached: false,
         description: 'Producer-declared information about organic farming practices and processing.',
-        image: '/assets/products/8.jpg',
+        image: '/assets/products/Whole-Wheat-Flour.jpg',
         versions: [
             {
                 id: 'v1',
@@ -259,7 +259,7 @@ export const products: Product[] = [
         evidenceAttached: true,
         evidenceCount: 3,
         description: 'Producer-reported specifications and energy efficiency information.',
-        image: '/assets/products/9.jpeg',
+        image: '/assets/products/LED Light Bulb.webp',
         versions: [
             {
                 id: 'v1',
@@ -293,7 +293,7 @@ export const products: Product[] = [
         evidenceAttached: true,
         evidenceCount: 4,
         description: 'Producer-declared information about cork harvesting and manufacturing processes.',
-        image: '/assets/products/10.jpeg',
+        image: '/assets/products/Cork Flooring Tile.jpg',
         versions: [
             {
                 id: 'v1',
@@ -321,7 +321,7 @@ export const products: Product[] = [
         evidenceAttached: true,
         evidenceCount: 5,
         description: 'Information declared by producer regarding compostable materials and certification.',
-        image: '/assets/products/11.jpeg',
+        image: '/assets/products/Biodegradeable Coffee cup.avif',
         versions: [
             {
                 id: 'v1',
@@ -355,7 +355,7 @@ export const products: Product[] = [
         evidenceAttached: true,
         evidenceCount: 2,
         description: 'Producer-declared information about recycled paper content and production methods.',
-        image: '/assets/products/12.jpeg',
+        image: '/assets/products/Recycled Paper Notebook.avif',
         versions: [
             {
                 id: 'v1',
