@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Swiss/Professional Palette */
+    /* Background: Pure white or extremely subtle cool tint */
+    --background: 0 0% 100%;
+    /* Foreground: Deep, near-black for sharp text */
+    --foreground: 220 25% 10%;
+
+    /* Card: White with subtle distinction */
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+
+    /* Popover: Same as card */
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+
+    /* Primary: Trustworthy Deep Slate/Navy */
+    --primary: 220 35% 15%;
+    --primary-foreground: 210 40% 98%;
+
+    /* Secondary: Cool Light Gray for UI elements */
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 220 35% 15%;
+
+    /* Muted: Text or backgrounds that recede */
+    --muted: 210 20% 96%;
+    --muted-foreground: 220 10% 45%;
+
+    /* Accent: Subtle highlights */
+    --accent: 210 30% 94%;
+    --accent-foreground: 220 35% 15%;
+
+    /* Destructive: Sophisticated Red */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Border: Very subtle, high-quality gray */
+    --border: 220 15% 90%;
+    /* Input: Same as border */
+    --input: 220 15% 90%;
+    /* Ring: Focus state */
+    --ring: 220 35% 15%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark Mode equivalent (Optional, but good to have set up professionally) */
+    --background: 220 30% 8%;
+    --foreground: 210 20% 98%;
+
+    --card: 220 30% 10%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 220 30% 10%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 210 20% 98%;
+    --primary-foreground: 220 35% 15%;
+
+    --secondary: 217 32% 17%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 217 32% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 32% 17%;
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 217 32% 17%;
+    --input: 217 32% 17%;
+    --ring: 212 26% 83%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-gradient-to-b from-white via-blue-100 to-purple-200 bg-fixed text-foreground antialiased min-h-screen;
+  }
+
+  /* Typography Enhancements */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply tracking-tight;
+  }
+}
