@@ -5,7 +5,7 @@ import { Suspense } from 'react'
 import { Skeleton } from '@/components/ui/skeleton'
 
 interface ProductDetailPageProps {
-    params: Promise<{ id: string }>
+    params: { id: string }
 }
 
 function ProductDetailSkeleton() {
@@ -22,7 +22,7 @@ function ProductDetailSkeleton() {
 }
 
 export default async function ProductDetailPage({ params }: ProductDetailPageProps) {
-    const { id } = await params
+    const { id } = params
     const product = products.find((p) => p.id === id)
 
     if (!product) {
